@@ -1,0 +1,215 @@
+.header {
+  display: inline-block;
+}
+
+.header_Box1 {
+  float: left;
+  height: 180px;
+  width: 27vw;
+}
+
+.header_Box1 h1 {
+  padding: 15px;
+  color: #101020;
+  text-shadow: 2px 2px 1px #a7a7a7, 1px 1px 1px black;
+}
+
+.header_Box1 h2 {
+  padding-left: 15px;
+  font-size: 18px;
+}
+
+.header_Box1 .Objective {
+  padding: 15px;
+  font-size: 12px;
+  color: gray;
+}
+
+.header_Box2 {
+  float: left;
+  height: 180px;
+  width: 27vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -ms-grid;
+  display: grid;
+}
+
+.header_Box2 .Main_Image {
+  height: 150px;
+  margin: auto;
+  border-radius: 50%;
+  border: solid black 2px;
+}
+
+.header_Box2 .Main_Image:hover {
+  -webkit-box-shadow: 1px 1px 8px 5px black;
+          box-shadow: 1px 1px 8px 5px black;
+  cursor: pointer;
+}
+
+.header_Box3 {
+  height: 180px;
+  width: 27vw;
+  text-align: right;
+  direction: rtl;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header_Box3 .List_Box3 {
+  list-style: inside none;
+  line-height: 25px;
+  font-size: 12px;
+  font-weight: 600;
+  direction: ltr;
+  margin-right: 5px;
+}
+
+.main_1 {
+  margin-left: 5px;
+  width: 38vw;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+h4 {
+  font-size: 18px;
+  margin: 12px 0px;
+}
+
+.Institute_name {
+  margin: 12px 0px 5px;
+  font-size: 17px;
+  color: #242424;
+}
+
+.Year {
+  font-size: 15px;
+  color: #7a7a7a;
+}
+
+.Marks {
+  font-size: 15px;
+  float: right;
+  color: #7a7a7a;
+}
+
+.achivements {
+  margin-top: 20px;
+  color: #818181;
+}
+
+.main_2 {
+  margin: 0;
+  margin-right: 10px;
+  width: 38vw;
+  float: right;
+}
+
+.Skills {
+  margin-top: 20px;
+  list-style: none;
+  display: inline-block;
+  background-color: #9e9d9d;
+  padding: 7px 15px;
+  border-radius: 10px;
+  color: white;
+}
+
+.Projects {
+  list-style: decimal inside;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.Project_content {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #202020;
+}
+
+.Languages {
+  margin-top: 20px;
+}
+
+.English, .Hindi {
+  font-weight: 600;
+}
+
+.Interest {
+  margin-top: 5px;
+  padding: 5px 10px;
+  display: inline-block;
+  border: solid black 1px;
+  border-radius: 6px;
+}
+
+@media screen and (max-width: 800px) {
+  .header_Box3 {
+    width: 81vw;
+  }
+  .header_Box1 {
+    width: 40vw;
+  }
+  .header_Box2 {
+    width: 40vw;
+  }
+  .main_1 {
+    width: 75vw;
+  }
+  .main_2 {
+    width: 75vw;
+  }
+  .List_Box3 {
+    background-color: #b4b4b4;
+    padding: 5px 10px;
+    margin: 5px;
+    float: left;
+    border-radius: 8px;
+  }
+  .Box {
+    display: -ms-grid;
+    display: grid;
+  }
+  .main_2 {
+    float: left;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: gray;
+}
+
+.Box {
+  background-color: white;
+  width: 81vw;
+  margin: auto;
+  -webkit-box-shadow: 1px 3px 5px 8px white;
+          box-shadow: 1px 3px 5px 8px white;
+}
+
+h3 {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  display: inline-block;
+  margin-top: 50px;
+}
+/*# sourceMappingURL=Resume.css.map */
