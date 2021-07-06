@@ -1,12 +1,11 @@
 .header{
-    // height: 180px;
     display: inline-block;
     
 }
 .header_Box1{
     float: left;
     height: 180px;
-    width: 27vw;
+    width: 30vw;
     h1{
         padding: 15px;
         color: rgb(16, 16, 32);
@@ -25,7 +24,7 @@
 .header_Box2{
     float: left;
     height: 180px;
-    width: 27vw;
+    width: 30vw;
     align-items: center;
     display: grid;
     .Main_Image{
@@ -42,11 +41,12 @@
 }
 .header_Box3{
     height: 180px;
-    width: 27vw;
+    width: 30vw;
     text-align: right;
     direction: rtl;
     display: grid;
     align-items: center;
+    
     .List_Box3{
         list-style: inside none;
         line-height: 25px;

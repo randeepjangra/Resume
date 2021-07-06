@@ -5,7 +5,7 @@
 .header_Box1 {
   float: left;
   height: 180px;
-  width: 27vw;
+  width: 30vw;
 }
 
 .header_Box1 h1 {
@@ -28,7 +28,7 @@
 .header_Box2 {
   float: left;
   height: 180px;
-  width: 27vw;
+  width: 30vw;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -51,7 +51,7 @@
 
 .header_Box3 {
   height: 180px;
-  width: 27vw;
+  width: 30vw;
   text-align: right;
   direction: rtl;
   display: -ms-grid;
@@ -131,6 +131,7 @@ h4 {
   margin-top: 10px;
   margin-left: 20px;
   color: #202020;
+  font-size: 18px;
 }
 
 .Languages {
@@ -160,6 +161,10 @@ h4 {
   color: black;
 }
 
+* a:hover {
+  color: #3a3ab4;
+}
+
 body {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -168,10 +173,11 @@ body {
 
 .Box {
   background-color: white;
-  width: 81vw;
+  width: 90vw;
   margin: auto;
   -webkit-box-shadow: 1px 3px 5px 8px white;
           box-shadow: 1px 3px 5px 8px white;
+  overflow: hidden;
 }
 
 h3 {

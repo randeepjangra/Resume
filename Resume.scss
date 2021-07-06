@@ -10,6 +10,9 @@
         text-decoration: none;
         color: black;
     }
+    a:hover{
+        color: rgb(58, 58, 180);
+    }
 }
 body{
     padding-top: 20px;
@@ -19,9 +22,10 @@ body{
 
 .Box{
     background-color: white;
-    width: 81vw;
+    width: 90vw;
     margin: auto;
     box-shadow: 1px 3px 5px 8px white;
+    overflow: hidden;
 }
 h3{
     border-top: 2px solid black;
